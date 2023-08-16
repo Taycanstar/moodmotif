@@ -64,6 +64,7 @@ const LoginScreen: React.FC = () => {
       loginUser({
         email,
         password,
+        productType: "Moodmotif",
       })
     );
 
